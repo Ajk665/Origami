@@ -1,0 +1,28 @@
+.header{
+
+    background: cadetblue;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    animation: example 8s infinite;
+
+}
+@keyframes example {
+    from {background-color: cadetblue;}
+    to {background-color: green;}
+
+  }
+.content{
+
+    background: aliceblue;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.content:hover img{
+
+    opacity: 0.33;
+
+}
